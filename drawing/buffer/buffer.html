@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+<title>Buffer</title>
+
+<link rel="stylesheet" href="https://js.arcgis.com/3.35/dijit/themes/claro/claro.css">
+<link rel="stylesheet" href="https://js.arcgis.com/3.35/esri/css/esri.css">
+<script src="https://js.arcgis.com/3.35/"></script>
+<script src= "buffer.js"></script> 
+<style>
+   html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0; 
+    padding: 0;
+    overflow:hidden;
+  }
+  #leftPane{
+    color:#000;
+    width:250px;
+    padding-bottom:15px;
+  }
+  #map{
+    padding:0;
+  }
+  .details{
+    font-size:14px;
+    font-weight:600;
+    padding-bottom:20px;
+  }
+
+  button{
+    margin:2px;
+    cursor:pointer;
+  }
+</style>
+
+<script src="buffer.js"></script>
+
+
+</head>
+
+<body class="claro">
+<div id="map"></div>
+<button id="clearGraphics"></button>
+</body>
+</html>
+ 
